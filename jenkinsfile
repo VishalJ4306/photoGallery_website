@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World' "Hello jenkins"
+                echo 'Hello World'
                 sh 'node --version'
       }
     }
