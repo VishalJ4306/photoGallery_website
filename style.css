@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #5583e7;
+    padding: 1rem;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.menu-item a {
+    text-decoration: none;
+    color: black; /* Dark text color */
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    color: #333; /* Darker hover color */
+    text-shadow: 0 0 2px #ddd; /* Subtle hover shadow */
+}
+
+/* Optional responsive styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack menu items vertically on small screens */
+    }
+
+    .menu-item {
+        margin-bottom: 0.5rem;
+    }
+}
+
+h1 {
+    color: whitesmoke
+    text-align: center;
+  }
+h1:hover {
+ color:chocolate;
+ text-shadow: #5583e7;
+}
+a:hover {
+    color:darkgreen;
+    text-shadow: #333;
+}
+
+/* Target the anchor element within the centered div */
+div a {
+    font-size: 20px;
+    background-color: rgb(255, 0, 140);
+    padding: 15px 35px;
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  /* Apply hover styles to the anchor element */
+  div a:hover {
+    background-color: rgb(204, 0, 0); /* Darker red on hover */
+    color: white; /* White text on hover for better contrast */
+    cursor: pointer; /* Indicate clickable behavior */
+    /* Add box-shadow for a subtle hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
